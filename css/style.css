@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+
+  text-decoration: none;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-size: 100%;
+  background-image: linear-gradient(#2A678C, #3AA637, #F2D230, #F2921D, #D94711);
+  background-attachment: fixed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.logo {
+  height: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.menu {
+  display: flex;
+  gap: 35px;
+}
+
+.itens {
+  font-family: 'Sarala', sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.container {
+
+  border-top: 0.4px solid black;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nome {
+  font-weight: 400;
+  font-size: 63px;
+  color: ;
+  font-family: 'Righteous', cursive;
+}
+
+.frase {
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+  font-family: 'Sarala', sans-serif;
+}
+
+.botão {
+  background-color: black;
+  width: 180px;
+  height: 60px;
+  border: none;
+}
+
+.avata {
+
+  margin-top: 40px;
+  height: 45%;
+  height: 45%;
+  border-radius: 50%;
+
+}
+
+.sub-titulo {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+
+}
+
+.geral {
+  border-top: 0.4px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10%;
+  flex-direction: row-reverse;
+
+
+
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  font-family: 'Sarala', sans-serif;
+  margin-top: 5%;
+
+
+
+}
+
+.video {
+  margin-top: 10%;
+  height: 400px;
+
+}
+
+
+ul {
+
+  list-style-type: none;
+
+}
+
+.contato {
+  border-top: 0.4px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+form {
+  font-family: 'Sarala', sans-serif;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+form input,
+form textarea {
+  outline: unset;
+  padding: 20px;
+  min-width: 300px;
+  border: 1px solid #2A678C;
+  border-radius: 20px;
+}
+
+form input:focus,
+form textarea:focus {
+  background-color: #F2D230;
+}
+
+form input[type=submit] {
+  background-image: linear-gradient(#F2D230, #F2921D);
+  color: black;
+  cursor: pointer;
+  font-family: 'Sarala', sans-serif;
+}
+
+form label {
+  margin-left: 10px;
+}
+
+p {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
